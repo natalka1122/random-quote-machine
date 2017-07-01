@@ -5,8 +5,8 @@
   <title>natalka1122's Random Quote Machine</title>
   <!-- Bootstrap v4 Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-<!--  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>  
    Fontawesome
   <script src="https://use.fontawesome.com/179c7c300d.js"></script>
@@ -19,15 +19,15 @@
         <div class="block">
             <div class="row">
                 <div class="col-12 col-md-8 col-lg-6 offset-md-2 offset-lg-3">
-                    <div class="quote">
-                        <div class="row">
+                    <div class="quoteBlock">
+                        <div class="row quoteText">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                         </div>
                         <div class="row">
                             <div class="col-6">
                                 <a 
                                     href="https://twitter.com/intent/tweet?button_hashtag=quote" 
-                                    class="twitter-hashtag-button" 
+                                    class="twitter-hashtag-button btn btn-primary" 
                                     data-text="my quote" 
                                     data-url="https://natalka1122.github.io/random-quote-machine/"
                                     data-show-count="false">
@@ -35,7 +35,7 @@
                                 </a>
                             </div>
                             <div class="col-6">
-                                <button class="btn btn-default btn-block">Get New Quote</button>
+                                <button id = "newQuote" class="btn btn-primary btn-block">Get New Quote</button>
                             </div>
                         </div>
                     </div>
