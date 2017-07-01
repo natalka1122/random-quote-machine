@@ -1,17 +1,8 @@
-html {
-  -webkit-text-size-adjust:none; text-size-adjust:none
-  -webkit-text-size-adjust: 100%; text-size-adjust:100%
-}
 
 body {
 	background-image: url(images/background.jpg);
 }
 
-@media (max-width: 600px) {
-  .vulc__nav {
-    font-size:1.5em;
-  }
-}
 
 .parent {
   width: 100%;
