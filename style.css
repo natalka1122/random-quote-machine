@@ -18,6 +18,7 @@ body {
   text-align: center;
 }
 .quoteBlock {
+    width: 100%;
     border: 30px solid #40c4c8;
     padding: 20px;
     -moz-border-image: url(images/border.png) 30 round round;
