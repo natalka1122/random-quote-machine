@@ -13,5 +13,3 @@ function getQuote(response){
     $(".quoteAuthor").html(quoteAuthor);
     $(".quoteTwitter").prop("href",twitterLink+"\""+quoteText+"\" "+quoteAuthor);
 }
-
-//https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=%22They%20call%20me%20Mister%20Tibbs!%22%20In%20the%20Heat%20of%20the%20Night
