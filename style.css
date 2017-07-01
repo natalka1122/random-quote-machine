@@ -3,7 +3,6 @@ body {
 	background-image: url(images/background.jpg);
 }
 
-
 .parent {
   width: 100%;
   height: 100%;
@@ -27,4 +26,11 @@ body {
     -webkit-border-image: url(images/border.png) 30 round round; 
     -o-border-image: url(images/border.png) 30 round round;
     border-image: url(images/border.png) 30 round round;
-   }
+}
+
+.quoteText {
+  text-align: left;
+}
+.quoteAuthor {
+  text-align: right;
+}
