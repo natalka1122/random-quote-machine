@@ -17,11 +17,11 @@ body {
   font-size:20px;
   text-align: center;
 }
-.quite {
+.quote {
     border: 30px solid #40c4c8;
     padding: 20px;
-    -moz-border-image: url(images/bg-image.png) 30 round round;
-    -webkit-border-image: url(images/bg-image.png) 30 round round; 
-    -o-border-image: url(images/bg-image.png) 30 round round;
-    border-image: url(images/bg-image.png) 30 round round;
+    -moz-border-image: url(images/border.png) 30 round round;
+    -webkit-border-image: url(images/border.png) 30 round round; 
+    -o-border-image: url(images/border.png) 30 round round;
+    border-image: url(images/border.png) 30 round round;
    }
