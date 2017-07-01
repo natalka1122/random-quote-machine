@@ -1,13 +1,13 @@
 $( document ).ready(function() {
-    $("#newQuote").on("click", function() {
-        $.getJSON("https://api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&lang=en&jsonp=getQuote&?callback=?");
-    });
+    jsonpQuote();
+    $("#newQuote").on("click", jsonpQuote);
 });
+function jsonpQuote(){
+    $.getJSON("https://api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&lang=en&jsonp=getQuote&?callback=?");
+}
 function getQuote(response){
-            var html = "Hi json";
-            // Only change code below this line.
-            
-            // Only change code above this line.
-            $(".quoteText").html(html);
-  console.log (response);
+    var quoteText = response.quoteText
+    var quoteAuthor = response.quoteAuthor;
+    $(".quoteText").html(quoteText);
+    $(".quoteAuthor").html(quoteAuthor);
 }
